@@ -1061,6 +1061,11 @@ ul.socialmedia li a:hover {
     background: #16143e;
 }
 .new-menu {max-width: 100%;width: 100%;}
+.dropdown-content a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 /******** responsive	***********/
