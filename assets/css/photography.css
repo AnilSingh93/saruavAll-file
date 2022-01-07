@@ -1,0 +1,200 @@
+body.photography {
+    background: #141414;
+}
+
+section.pgraphy_second_section .second_main p {
+    font-size: 20px;
+    color: #ffffffe8;
+}
+section.pgraphy_second_section .second_main p span {
+    color: #fff;
+    font-weight: bold;
+}
+section.speca_section {
+    background: linear-gradient(to top, #000000b0, #000000bf), url(https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+}
+
+section.speca_section .spec_heading {
+    padding-bottom: 60px;
+}
+
+.spea_heading {
+    /* border: 1px solid rgba(255,255,255,0.5); */
+    box-shadow: 0px 0px 1px 0px #fff;
+    padding: 50px;
+    margin: 10px 0 0;
+}
+.spea_heading.next-col {
+    padding: 27px 40px;
+}
+.spea_heading p {
+    font-size: 20px;
+}
+
+section.films_section .films_heading {
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+section.films_section .riht-text {
+    font-size: 20px;
+    color: #ffffffe8;
+}
+
+section.films_section .riht-text SPAN {
+    COLOR: #fff;
+    font-weight: bold;
+}
+
+section.films_section .left-img img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+section.films_section .left-img {
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+section.films_section .left-img img {
+    border: 3px solid #fff;
+}
+
+
+section.pgraphy_section .left-img {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  section.pgraphy_section .img-column {
+    -ms-flex: 33%; /* IE10 */
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+  }
+  
+  section.pgraphy_section .img-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  section.pgraphy_section {
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+section.pgraphy_section .films_heading {
+    padding-bottom: 50px;
+}
+section.pgraphy_section .img-column.falf-img {
+    width: 50%;
+    max-width: 50%;
+    flex: 50%;
+}
+body.photography section.hero_section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/pgrapher-bg.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    background-attachment: fixed;
+}
+
+body.photography .hero_text .sl-subtitle,
+body.photography .hero_text .desc,
+body.photography .slider-des {
+    color: #fff;
+}
+section.pgraphy_second_section {
+    padding: 100px 0;
+}
+body.photography footer {
+    background: #fff;
+}
+section.logo-section {
+    padding: 100px 0;
+}
+
+section.logo-section .heading {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+body.photography section#home {
+    padding: 250px 100px;
+}
+body.photography .hero_main {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+body.photography .hero_main .hero_text {
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 100%;
+}
+body.photography .hero_main .desc {
+    margin: 0 auto;
+    width: 100%;
+}
+section.logo-section .repeat img {
+    min-width: 175px;
+    margin: 0 auto;
+}
+
+section.logo-section .repeat.slick-slide {
+    min-height: 175px;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767px){
+    section.pgraphy_section .img-column.falf-img {
+        width: 100%;
+        max-width: 100%;
+        flex: 100%;
+    }
+    section.pgraphy_second_section img {
+             width: 100%;
+    }
+    section.films_section .left-img {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    section.pgraphy_section .img-column {
+        -ms-flex: 33%;
+        flex: 100%;
+        max-width: 100%;
+        padding: 0 4px;
+    }
+    section.logo-section .slick-slide img {
+        display: block;
+        width: 100%;
+    }
+    body.photography section#home {
+            padding: 150px 0 100px;
+    }
+    body.photography .hero_main {
+        padding-top: 100px;
+    }
+
+
+}
